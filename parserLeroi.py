@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.options import Options
 import requests
 import csv
 from bs4 import BeautifulSoup
-'test'
+
 def get_html(url):
     chrome_options = Options() 
     chrome_options.add_argument("--headless")
